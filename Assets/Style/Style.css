@@ -354,8 +354,16 @@ ul a:hover {
 }
 
 .p3 {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 40px;
+    font-family: 'tt commons';
+    font-size: 22px;
+    color: #fff;
+}
 
-    padding-left: 16px;
+.p3 p {
+    align-items: center;
     font-family: 'tt commons';
     font-size: 22px;
     padding: 20px 0px;
@@ -363,17 +371,6 @@ ul a:hover {
     transition: 2s;
     border-radius: 10px;
     margin: 30px;
-
-}
-
-.p3:hover {
-    box-shadow: inset 0 0 10px #ffffff;
-
-}
-
-.p3 p {
-    padding: 20px 90px 20px 40px;
-    color: #ffffff;
 
 }
 
