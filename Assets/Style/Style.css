@@ -450,13 +450,10 @@ ul a:hover {
         align-items: center
     }
 
-    .colorsobre {
-        overflow: scroll;
-    }
+    .p3 p {
+     overflow: scroll;
 
-    .p3 {
-        margin: 60px 10px;
-    }
+}
 
     .footer-color {
         display: grid;
@@ -541,11 +538,11 @@ ul a:hover {
 
     }
 
-    .p3 {
-        box-shadow: inset 0px 0px 15px #ffffff;
-        margin: 50px;
-    }
+    
+    .p3 p {
+     overflow: scroll;
 
+}
     .header {
         display: none;
     }
@@ -568,10 +565,6 @@ ul a:hover {
         display: block;
     }
 
-    .colorsobre {
-        overflow: scroll;
-        
-    }
 
     .footer-color {
         display: grid;
