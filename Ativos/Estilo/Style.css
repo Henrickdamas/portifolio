@@ -330,6 +330,7 @@ ul a:hover {
     margin: 0 auto;
     max-width: 1200px;
     padding: 100px 0px 150px 0px;
+    overflow: scroll;
 
 
 
