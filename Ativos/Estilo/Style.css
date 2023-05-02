@@ -367,10 +367,7 @@ ul a:hover {
     font-family: 'tt commons';
     font-size: 22px;
     padding: 20px 0px;
-    box-shadow: inset 0 0 10px #ffffff72;
-    transition: 2s;
     border-radius: 10px;
-    margin: 30px;
 
 }
 
