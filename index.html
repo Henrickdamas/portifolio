@@ -15,41 +15,93 @@
 
 </head>
 
-<body>
-  <input id=check-menu class="check-menu" type="checkbox" aria-label="botão menu" role="button">
-  <label class= "botton-menu" for="check-menu" title="botão-menu"></label>
+<body class="body">
+ 
+  <header>
 
-  <header class="header">
-    <div class="conteiner-menuflex">
+    <div class="conteiner-menu">
+
       <div>
         <a href="https://henrickdamas.github.io/portifolio/">
           <h1 class="logo0">PH</h1>
         </a>
       </div>
-      <nav class="menu">
-        <ul onclick="getElementById('check-menu').checked = false;" >
-          <li>
-            <a href="#inicio">INICIO</a>
-          </li>
-          <li>
-            <a href="#conteiner-port">PROJETOS</a>
-          </li>
-          <li>
-            <a href="#conteiner-sobre">SOBRE</a>
-          </li>
-        </ul>
-      </nav>
-      <div> 
+
+
+      <div class="nav-menu">
+
+        <nav>
+          <ul onclick="getElementById('check-menu').checked = false;">
+            <li>
+              <a href="#inicio">INICIO</a>
+            </li>
+            <li>
+              <a href="#conteiner-port">PROJETOS</a>
+            </li>
+            <li>
+              <a href="#conteiner-sobre">SOBRE</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div>
         <a href="https://wa.me/71996062757" target="_blank"><button class="wp-menu">WhatsApp</button></a>
+      </div>
+
+    </div>
+
+    <div class="top-menu-mobile">
+
+      <div>
+        <a href="https://henrickdamas.github.io/portifolio/">
+          <h1 class="logo0-mobile">PH</h1>
+        </a>
+      </div>
+
+
+      <img onclick="menuShow()" class="open-menu-mobile" src="/Assets/Img/menu_white_36dp.svg" alt="abrir-menu-mobile">
+
+    </div>
+
+    <div class="js-menu-mobile">
+      <div class="conteiner-menu-mobile">
+        <div class="menu2-mobile">
+
+
+          <nav class="nav-mobile">
+            <ul >
+              <li>
+                <a href="#inicio">INICIO</a>
+              </li>
+              <li>
+                <a href="#conteiner-port">PROJETOS</a>
+              </li>
+              <li>
+                <a href="#conteiner-sobre">SOBRE</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div>
+            <a href="https://wa.me/71996062757" target="_blank"><button class="wp-menu-mobile">WhatsApp</button></a>
+          </div>
+
+        </div>
+
       </div>
     </div>
 
+
+
   </header>
+
 
   <section class="vw">
     <div id="inicio">
       <div class="aprtt1">
-        <img class="img1" src="./Assets/Img/JD.png" alt="Essa é a minha foto">
+        <img class="img1" src="/Assets/Img/JD.png" alt="Essa é a minha foto">
       </div>
       <div class="aprtt2">
         <h1 class="h1"> Olá, sou o <br>Paulo Henrique</h1>
@@ -61,14 +113,14 @@
   </section>
 
 
-  <main class="#page-project">
+<main class="#page-project">
     <div id=conteiner-port class=" vw-white">
       <div class="color-port ">
         <div id="port01">
           <h2>
             PROJETOS
           </h2>
-        </div> <!-- port01 -->
+        </div> port01 
 
         <div class="projeto01">
 
@@ -78,7 +130,7 @@
             </h3>
 
             <video class="vidport" autoplay loop>
-              <source src="./Assets/videos/site-portfolio.mov">
+              <source src="/Assets/videos/site-portfolio.mov">
             </video>
           </div> <!--vid01-->
 
@@ -88,9 +140,9 @@
               do
               que posso fazer. Conforme os meus conhecimentos forem evoluindo irei adicionar novas versões utilizando
               mais
-              tecnologias.
+              tecnologias.<br><br>
 
-              <br><br>Foi utilizado:
+              Foi utilizado:
             </p>
 
             <div class="icon">
@@ -105,19 +157,20 @@
               </P>
             </div> <!-- icon -->
           </div> <!--p2-->
-        </div> <!--projeto01 -->
+       </div> <!--projeto01 --> 
 
-        <div class="btt-project">
+       <div class="btt-project">
 
           <a href="https://github.com/Henrickdamas" target="_blank"><button class="github">GITHUB</button></a>
 
-          <a href="https://www.linkedin.com/in/paulo-henrique-7641911a1/" target="_blank" ><button class="linkedin">LINKEDIN</button></a>
+          <a href="https://www.linkedin.com/in/paulo-henrique-7641911a1/" target="_blank"><button
+              class="linkedin">LINKEDIN</button></a>
 
         </div> <!--botão github-->
       </div> <!--color-port -->
 
     </div> <!--conteiner-port-->
- 
+
     <div id=conteiner-sobre class="vw">
       <div class="colorsobre">
         <div id="sobre01">
@@ -127,19 +180,29 @@
         </div>
 
         <div class="p3">
-          <p>Olá, meu nome é Paulo Henrique e tenho 23 anos.<BR><BR>
 
-            Atualmente estou no primeiro semestre de engenharia de software e escolhi esse curso por ser muito apaixonado por tecnologia, pois ajudar uma pessoa a resolver um problema me faz acreditar na imensidão de possibilidades que é ser um desenvolvedor.  <BR><BR>
+          <p>Olá, meu nome é Paulo Henrique e tenho 23 anos.</p>
 
-            Dentro desse pouco tempo na area de desenvolvimento tenho criado alguns projetos com o intuito de praticar e fortalecer os meus conhecimentos de programação. <br><br>
-            
-            Entre os projetos está o meu portfólio e tenho em desenvolvimento um website chamado <b>Estude Assim!</b> que tem o objetivo de auxiliar os usuários a encontrar um passo a passo sobre os estudos de um tópico especifico. <br><br>
+          <p>Atualmente estou no primeiro semestre de engenharia de software e escolhi esse curso por ser muito
+            apaixonado por tecnologia, pois ajudar uma pessoa a resolver um problema me faz acreditar na imensidão de
+            possibilidades que é ser um desenvolvedor. </p>
 
-            Com o <b>Estude Assim!</b>irei utilizar o React e fazer o consumo da OPEN IA do CHAT-GPT com JavaScrypt para fornecer as respostas aos usuários. A ideia é poder praticar mais e solidificar os meus conhecimentos de programação com desenvolvimento front-end.<br><br>
+          <p>Dentro desse pouco tempo na area de desenvolvimento tenho criado alguns projetos com o intuito de praticar
+            e fortalecer os meus conhecimentos de programação. </p>
 
-            Apesar do foco direcionado ao desenvolvimento front-end, o meu objetivo de longo prazo é me tornar um desenvolvedor full-stack com bastante conhecimento nas tecnologia de ponta do mercado.<br><br>
+          <p>Entre os projetos está o meu portfólio e tenho em desenvolvimento um website chamado <b>Estude Assim!</b>
+            que tem o objetivo de auxiliar os usuários a encontrar um passo a passo sobre os estudos de um tópico
+            especifico. </p>
 
-            Em paralelo tento melhorar constantemente as minhas soft skills com o intuito de ser um profissional melhor a cada dia.
+          <p>Com o <b>Estude Assim!</b>irei utilizar o React e fazer o consumo da OPEN IA do CHAT-GPT com JavaScrypt
+            para fornecer as respostas aos usuários. A ideia é poder praticar mais e solidificar os meus conhecimentos
+            de programação com desenvolvimento front-end.</p>
+
+          <p> Apesar do foco direcionado ao desenvolvimento front-end, o meu objetivo de longo prazo é me tornar um
+            desenvolvedor full-stack com bastante conhecimento nas tecnologia de ponta do mercado.</p>
+
+          <p>Em paralelo tento melhorar constantemente as minhas soft skills com o intuito de ser um profissional melhor
+            a cada dia.</p>
           </p>
         </div>
       </div>
@@ -151,7 +214,8 @@
     <div class="footer-color">
       <div>
         <p>
-          <a href="mailto:rickestrela65@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>rickestrela65@gmail.com </a>
+          <a href="mailto:rickestrela65@gmail.com" target="_blank"><i
+              class="fa-solid fa-envelope"></i>rickestrela65@gmail.com </a>
         </p>
       </div>
       <div>
@@ -162,5 +226,5 @@
     </div>
   </footer>
 
-  <script src="./Assets/JS/Transição_menu.js"></script>
+  <script src="/Assets/JS/Transição_menu.js"></script>
 </body>
