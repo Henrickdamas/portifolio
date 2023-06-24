@@ -8,13 +8,11 @@
 }
 
 .vw {
-    min-height: 100vh;
     background-color: #000000;
-    ;
+
 }
 
 .vw-white {
-    min-height: 100vh;
     color: #f4f5f5;
 
 }
@@ -177,7 +175,7 @@ ul a:hover {
 .p1 {
     color: #ffffff;
     font-family: 'tt commons';
-    font-size: 23px;
+    font-size: 25px;
 
 
 }
@@ -237,7 +235,7 @@ ul a:hover {
     align-items: center;
     text-align: justify;
     font-family: 'tt commons';
-    font-size: 22px;
+    font-size: 25px;
     color: #343535;
     padding-left: 20px;
 }
@@ -245,7 +243,7 @@ ul a:hover {
 .p2-p {
     width: 90%;
     font-family: 'tt commons';
-    font-size: 22px;
+    font-size: 25px;
     justify-content: center;
     align-items: center;
 
@@ -354,7 +352,7 @@ ul a:hover {
 .p3 {
     width: 80%;
     font-family: 'tt commons';
-    font-size: 22px;
+    font-size: 25px;
     justify-content: center;
     align-items: center;
 
@@ -423,13 +421,13 @@ footer {
     }
 
     .aprtt2 {
-       padding-left: 10px;
-       padding-right: 30px; 
+        padding-left: 10px;
+        padding-right: 30px;
     }
 
-.p1 {
-    font-size: 28px;
-}
+    .p1 {
+        font-size: 28px;
+    }
 
     .projeto01 {
         display: grid;
@@ -463,6 +461,7 @@ footer {
         margin: 0 auto;
         padding-left: 0;
     }
+
     .icon {
         width: 95%;
     }
