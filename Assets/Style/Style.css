@@ -623,7 +623,9 @@ footer {
     }
 
     .p3 {
-        width: 80%;
+        margin: 0 auto;
+        width: 95%;
+        font-size: 25px;
     }
 
     .color-port {
@@ -665,11 +667,7 @@ footer {
         width: 90%;
     }
 
-    .p3 {
-        margin: 0 auto;
-        width: 95%;
-        font-size: 25px;
-    }
+ 
 
     footer {
         background-color: #000;
